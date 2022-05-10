@@ -14,7 +14,7 @@ If you would like to install the trace viewer for binaryninja:
 
 ```sh
 mkdir -p ~/.binaryninja/plugins/trace_viewer/
-cp utilities/trace_viewer.py ~/.binaryninja/plugins/trace_viewer/__init__.py
+cp utils/trace_viewer.py ~/.binaryninja/plugins/trace_viewer/__init__.py
 ```
 
 ## Building
@@ -52,7 +52,7 @@ features beyond what the [inspiration](https://pypi.org/project/shellphish-qemu/
   through the filesystem for super fast reads
 * Has some test cases!
 
-There is also a loader for Binary Ninja [here](utilities/trace_viewer.py) that can load
+There is also a loader for Binary Ninja [here](utils/trace_viewer.py) that can load
 parsed `TraceResult` outputs that have been serialized to JSON with `TraceResult.export`
 and display them as a heatmap on the CFG as shown below:
 
